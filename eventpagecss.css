@@ -6,26 +6,26 @@
 
 /* Button */
 .btn {
-    width:auto;
-    height:50px;
-    top:45%;
+    width: auto;
+    height: 50px;
+    top: 45%;
     border: none;
 }
 
 .btn-green {
-    background-color: #3C7C42; 
+    background-color: #3C7C42;
 }
 
 .btn-green:hover {
-    background-color: #3C7C42; 
+    background-color: #3C7C42;
 }
 
 .btn-blue {
-    background-color: #156EA6; 
+    background-color: #156EA6;
 }
 
 .btn-blue:hover {
-    background-color: #156EA6; 
+    background-color: #156EA6;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 /* Banner */
 .banner {
     position: relative;
-    margin-top: 0; /* Ensures no gap above the banner */
+    margin-top: 0;
     color: white;
     z-index: 1;
     overflow: hidden;
@@ -62,30 +62,30 @@ body {
     left: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Cards */
 .event-card {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    margin:2%;
+    margin: 2%;
 }
 
-#upcomingCarousel .event-card{
+#upcomingCarousel .event-card {
     background-color: #D2EEC3;
 }
 
-#pastCarousel .event-card{
+#pastCarousel .event-card {
     background-color: #C1E6FD;
 }
 
 .event-card img {
     border-radius: 15px;
-    padding:5px;
+    padding: 5px;
     width: 100%;
     height: auto;
-    min-height:220px;
+    min-height: 220px;
     max-height: 250px;
     object-fit: cover;
 }

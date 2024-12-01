@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Afacad:ital,wght@0,400..700;1,400..700&family=Alata&display=swap" rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Afacad:ital,wght@0,400..700;1,400..700&family=Alata&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -38,13 +39,96 @@
 
     <!-- Banner Section -->
     <section class="banner">
-        <img src="Images/Cultural Celebration at Pitt.jpg" alt="Community Banner" class="img-fluid">
+        <img src="Images/Cultural Celebration at Pitt.jpg" alt="Community Banner">
         <div class="banner-text">
-            <h1 class="text-white">Get involved with the community!</h1>
+            <h1>Want to help out? <br>Join us today!</h1>
+        </div>
+        <div class="info-box">
+            <p>We address the challenges of education, language access, and safety in the community.</p>
+            <button>Get Involved</button>
         </div>
     </section>
 
-    <main>Filler Text</main>
+    <br>
+
+    <main>
+        <div class="row justify-content-center column-gap-5">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Volunteer</h5>
+                    <p class="card-text">Whether you're a high school student or an interested neighbor, we'd love to
+                        have you!</p>
+                    <a href="#" class="btn btn-primary">Join Now</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Partner</h5>
+                    <p class="card-text">If you're a local organization who wants to partner with us, contact us below!
+                    </p>
+                    <a href="#" class="btn btn-primary">Partner Now</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Contact us</h5>
+                    <p class="card-text">123-456-7890 example@gmail.com 1234 Example Street Pittsburgh, PA 12345</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Education in Pittsburgh</h3>
+            <p>Education continues to be a struggle for the SB community and a high school diploma is a significant
+                achievement. Roughly 80% of youth ages 18 - 25 have graduated from high school and approximately 10
+                youth have gone on to graduate from a trade school or 2- or 4-year college. While there have been
+                success stories among the “next generation,” poverty and illiteracy have taken their toll on the
+                community.</p>
+        </div>
+
+        <div>
+            <h3>Building Bridges for Education</h3>
+            <p>The volunteer community working group has developed and implemented initial strategies including a
+                communication bridge between teachers and parents and a youth job fair held in Northview Heights.
+                Building Bridges for Education will continue this work, expanding the outreach and providing additional
+                resources.</p>
+        </div>
+
+        <!-- form starts here -->
+        <form>
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Enter email address">
+            </div>
+            <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phoneNumber" placeholder="Enter phone number">
+            </div>
+
+            <div>
+                <p> Joining as...</p>
+            </div>
+
+            <div><input type="radio" id="volunteer" name="fav_language" value="Volunteer">
+                <label for="html">Volunteer</label>
+                <input type="radio" id="member" name="fav_language" value="Member">
+                <label for="css">Member</label><br>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Join Now</button>
+
+        </form>
+        </div>
+    </main>
 
     <!--Footer--> <!--From Home Page-->
     <footer class="bg-light-gray py-3 text-center">
