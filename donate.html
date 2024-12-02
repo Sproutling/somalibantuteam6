@@ -15,21 +15,22 @@
 
 <body>
     <!-- navbar starts here -->
-    <header class="white">
-        <div class="container d-flex align-items-center justify-content-between w-75">
-            <div class="logo col-6">
+    <header class="light-gray">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+
                 <img src="/Images/SBCAP_LOGO.png" alt="SBCAP Logo" class="logo-img">
             </div>
-            <nav class="align-items-center">
+            <nav class="d-flex align-items-center">
                 <ul class="nav">
-                    <!-- Home button: always visible -->
-                    <li class="nav-item"><a class="nav-link text-black" href="#">Home</a></li>
-            
-                    <!-- Other buttons: hidden below md -->
+                    <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Home</a></li>
                     <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Events</a></li>
                     <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Donate</a></li>
                     <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Get Involved</a></li>
                 </ul>
+                <div class="ms-3">
+                    <input type="text" class="form-control form-control-sm" placeholder="Search...">
+                </div>
             </nav>
         </div>
     </header>
@@ -183,7 +184,9 @@
         </form>
     </div>
 
-    
+    <footer class="py-3 text-center mt-5">
+        <p class="mb-0">© 2024 SBCAP. All rights reserved.</p>
+    </footer>
 
 
       <!-- connect to Bootstrap -->

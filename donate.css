@@ -71,7 +71,7 @@ h1, .card-title, h5 {
 
 /* Logo */
 .logo-img {
-    max-height: 94px;
+    max-height: 80px;
 }
 
 .nav-item {
@@ -138,4 +138,10 @@ h1, .card-title, h5 {
     border-color: #C1E6FD;
     outline: none;
     box-shadow: 0 0 5px rgba(193, 230, 253, 0.5);
+}
+
+/* Footer */
+footer {
+    background-color: #338fc8;
+    color: white;
 }
