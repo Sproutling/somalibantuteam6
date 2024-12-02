@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SBCAP Get Involved Page</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <title>Get Involved</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="get-involved.css">
+
+    <!-- fonts here >:P -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Afacad:ital,wght@0,400..700;1,400..700&family=Alata&display=swap"
-        rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Afacad:ital,wght@0,400..700;1,400..700&family=Alata&display=swap" rel="stylesheet"></head>
 
 <body>
-    <header> <!--From Home Page-->
+    <!-- navbar starts here -->
+    <header class="light-gray">
         <div class="container d-flex align-items-center justify-content-between">
             <div class="logo">
+
                 <img src="/Images/SBCAP_LOGO.png" alt="SBCAP Logo" class="logo-img">
             </div>
             <nav class="d-flex align-items-center">
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link text-black" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-black" href="#">Events</a></li>
-                    <li class="nav-item"><a class="nav-link text-black" href="#">News</a></li>
-                    <li class="nav-item"><a class="nav-link text-black" href="#">Donate</a></li>
-                    <li class="nav-item"><a class="nav-link text-black" href="#">Get Involved</a></li>
+                    <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Home</a></li>
+                    <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Events</a></li>
+                    <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Donate</a></li>
+                    <li class="nav-item d-none d-md-block"><a class="nav-link text-black" href="#">Get Involved</a></li>
                 </ul>
                 <div class="ms-3">
                     <input type="text" class="form-control form-control-sm" placeholder="Search...">
@@ -37,103 +35,120 @@
         </div>
     </header>
 
-    <!-- Banner Section -->
-    <section class="banner">
-        <img src="Images/Cultural Celebration at Pitt.jpg" alt="Community Banner">
-        <div class="banner-text">
-            <h1>Want to help out? <br>Join us today!</h1>
-        </div>
-        <div class="info-box">
-            <p>We address the challenges of education, language access, and safety in the community.</p>
-            <button>Get Involved</button>
-        </div>
-    </section>
-
-    <br>
-
-    <main>
-        <div class="row justify-content-center column-gap-5">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Volunteer</h5>
-                    <p class="card-text">Whether you're a high school student or an interested neighbor, we'd love to
-                        have you!</p>
-                    <a href="#" class="btn btn-primary">Join Now</a>
-                </div>
+    <!-- content starts here -->
+    <div class="container-fluid p-0">
+        <div class="row">
+            <!-- Left Section -->
+            <div class="banner-image col-md-7 col align-items-center">
+                <h1 class="position-absolute bottom-0">Want to help out? Join us today!</h1>
             </div>
-
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Partner</h5>
-                    <p class="card-text">If you're a local organization who wants to partner with us, contact us below!
-                    </p>
-                    <a href="#" class="btn btn-primary">Partner Now</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Contact us</h5>
-                    <p class="card-text">123-456-7890 example@gmail.com 1234 Example Street Pittsburgh, PA 12345</p>
+    
+            <!-- Right Section (Hidden below md) -->
+            <div class="banner-text col-md-5 d-none d-md-block position-relative">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <p>We address the challenges of education, language access, and safety in the community.</p>
+                    <a href="#" class="btn btn-primary banner-button">Get Involved</a>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div>
-            <h3>Education in Pittsburgh</h3>
-            <p>Education continues to be a struggle for the SB community and a high school diploma is a significant
-                achievement. Roughly 80% of youth ages 18 - 25 have graduated from high school and approximately 10
-                youth have gone on to graduate from a trade school or 2- or 4-year college. While there have been
-                success stories among the “next generation,” poverty and illiteracy have taken their toll on the
-                community.</p>
+    <div class="container mt-5 w-75 p-0 mb-5">
+
+        <div class="row justify-content-center gap-5 m-0">
+            <div class="card col-md">
+                <div class="card-body">
+                  <h5 class="card-title start-0">Volunteer</h5>
+                  <p class="card-text">Whether you’re a high school student or an interested neighbor, we’d love to have you!</p>
+                  <a href="#" class="btn btn-primary card-button">Join Now</a>
+                </div>
+            </div>
+
+            <div class="card col-md">
+                <div class="card-body">
+                  <h5 class="card-title">Partner</h5>
+                  <p class="card-text">If you’re a local organization who wants to partner with us, contact us below!</p>
+                  <a href="#" class="btn btn-primary card-button">Partner Now</a>
+                </div>
+            </div>
+
+            <div class="card sponsor col-md">
+                <div class="card-body">
+                  <h5 class="card-title">Contact us</h5>
+                  <p class="card-text">123-456-7890<br>
+                    example@gmail.com<br>
+                    1234 Example Street<br>
+                    Pittsburgh, PA 12345</p>
+                  <a href="#" class="btn btn-primary card-button">Donate Now</a>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div>
-            <h3>Building Bridges for Education</h3>
-            <p>The volunteer community working group has developed and implemented initial strategies including a
-                communication bridge between teachers and parents and a youth job fair held in Northview Heights.
-                Building Bridges for Education will continue this work, expanding the outreach and providing additional
-                resources.</p>
-        </div>
+    <div class="mission-statement p-4 mb-5 container w-75">
+        <h2 class="text-center">Education in Pittsburgh</h2>
+        <p class="text-black">Education continues to be a struggle for the SB community and a high school diploma is a significant achievement. Roughly 80% of youth ages 18 - 25 have graduated from high school and approximately 10 youth have gone on to graduate from a trade school or 2- or 4-year college. While there have been success stories among the “next generation,” poverty and illiteracy have taken their toll on the community.
+        </p>
+    </div>
 
+    <div class="mission-statement p-4 mb-5 text-center container w-75">
+        <h2 class="text-center">Building Bridges for Education</h2>
+        <p class="text-black">The volunteer community working group has developed and implemented initial strategies including a communication bridge between teachers and parents and a youth job fair held in Northview Heights. Building Bridges for Education will continue this work, expanding the outreach and providing additional resources.
+        </p>
+    </div>
+
+    <div class="container w-75 form-container">
         <!-- form starts here -->
-        <form>
-            <div class="mb-3">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                    placeholder="Enter email address">
-            </div>
-            <div class="mb-3">
-                <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input type="text" class="form-control" id="phoneNumber" placeholder="Enter phone number">
-            </div>
 
-            <div>
-                <p> Joining as...</p>
+        <form class="p-4">
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                </div>
+                <div class="col-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+                </div>
             </div>
-
-            <div><input type="radio" id="volunteer" name="fav_language" value="Volunteer">
-                <label for="html">Volunteer</label>
-                <input type="radio" id="member" name="fav_language" value="Member">
-                <label for="css">Member</label><br>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@email.com">
+                </div>
+                <div class="col-6">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="1234567890">
+                </div>
             </div>
-
-            <button type="submit" class="btn btn-primary">Join Now</button>
-
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">Joining as...</label>
+                    <div class="d-flex flex-wrap align-items-center gap-4">
+                        <!-- Predefined amounts -->
+                        <input type="radio" class="btn-check" name="amount" id="amount5" value="5" autocomplete="off" checked>
+                        <label class="btn custom-btn flex-grow-1" for="amount5">Volunteer</label>
+                
+                        <input type="radio" class="btn-check" name="amount" id="amount10" value="10" autocomplete="off">
+                        <label class="btn custom-btn flex-grow-1" for="amount10">Member</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary banner-button">Join Now</button>
+                </div>
+            </div>
         </form>
-        </div>
-    </main>
+    </div>
 
-    <!--Footer--> <!--From Home Page-->
-    <footer class="bg-light-gray py-3 text-center">
-        <p class="mb-0 text-black">© 2024 SBCAP. All rights reserved.</p>
+    <footer class="py-3 text-center mt-5">
+        <p class="mb-0">© 2024 SBCAP. All rights reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!-- connect to Bootstrap -->
+      <script type="text/javascript" src="donate.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+</html>

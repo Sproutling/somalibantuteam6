@@ -1,132 +1,156 @@
-/*Colors*/
-
-.bg-light-gray {
-    background-color: #f5f5f5; /* Light gray */
+* {
+    font-family: "Afacad", system-ui;
 }
 
-/* Button */
-.btn {
-    width: auto;
-    height: 50px;
-    top: 45%;
-    border: none;
-}
-
-.btn-green {
-    background-color: #3C7C42;
-}
-
-.btn-green:hover {
-    background-color: #3C7C42;
-}
-
-.btn-blue {
+.banner-button {
     background-color: #156EA6;
+    border-style: none;
 }
 
-.btn-blue:hover {
-    background-color: #156EA6;
+.banner-image {
+    background-image: url('./Images/2005 Somali Bantu School Students with Tutors.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    color: white;
+    min-height: 300px;
+}
+
+.banner-text {
+    background-color: #3EB24A;
+}
+
+.btn:hover {
+    background-color: #338fc8;
+    color: white;
 }
 
 body {
-    font-family: "ADLaM Display";
     background-color: #F8FFF4;
+}
+
+.card {
+    background-color: #D2EEC3;
+    border-style: none;
+}
+
+.card-button {
+    background-color: #F8FFF4;
+    border-style: none;
+    color: black;
+}
+
+.form-control {
+    background-color: #EDF8E7;
+    border-color: #D2EEC3;
+    border-width: 2px;
+    color: #D2EEC3;
+}
+
+.form-container {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #EDF8E7;
+    border-radius: 10px;
+}
+
+.form-label {
+    font-family: "Alata", system-ui;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1, .card-title, h5, h2 {
+    font-family: "ADLaM Display", system-ui;
+    text-align: left;
 }
 
 /* Logo */
 .logo-img {
-    max-height: 50px;
+    max-height: 80px;
 }
 
-/* Banner */
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 0;
-    color: white;
-    overflow: hidden;
-    height: 350px;
+.mission-statement {
+    background-color: #D2EEC3;
+    /* Light green */
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    /* Ensures it doesn't overlap with the banner */
 }
 
-.banner img {
-    flex: 2;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(50%) blur(2px);
+.nav-item {
+    font-family: "Alata", system-ui;
+    font-size: 1.2rem;
 }
 
-.banner-text {
-    position: absolute;
-    z-index: 2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    color: white;
-    font-size: 1.8rem;
-    left: 5%;
-    top: 30%;
-    transform: translateY(-50%);
-    width: auto;
-}
-
-.info-box {
-    flex: 1;
-    background: #4caf50;
-    color: white;
-    padding: 2rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
-}
-
-.info-box p {
-    font-size: 1.2em;
-    margin-bottom: 1rem;
-}
-
-.info-box button {
-    padding: 0.8rem 1.5rem;
-    border: none;
-    background: #2c88d9;
-    color: white;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.info-box button:hover {
-    background: #1f6cb1;
-}
-
-/* Cards */
-.event-card {
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    margin: 2%;
-}
-
-#upcomingCarousel .event-card {
+.progress {
     background-color: #D2EEC3;
 }
 
-#pastCarousel .event-card {
+.progress-bar {
+    background-color: #3EB24A;
+}
+
+.progress-button {
+    background-color: #D2EEC3;
+    border-style: none;
+}
+
+.row {
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsor {
     background-color: #C1E6FD;
 }
 
-.event-card img {
-    border-radius: 15px;
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    min-height: 220px;
-    max-height: 250px;
-    object-fit: cover;
+.white {
+    background-color: white;
+    border-bottom: solid;
+    border-color: #CCCCCC;
+}
+
+
+/* Style for predefined amount buttons */
+.custom-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #D2EEC3;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+/* Selected button styling */
+.btn-check:checked + .custom-btn {
+    background-color: #D2EEC3;
+    color: black;
+    border-color: #D2EEC3;
+}
+
+/* Custom input styling */
+.custom-amount-input {
+    border: 2px solid #D2EEC3;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.custom-amount-input:focus {
+    border-color: #C1E6FD;
+    outline: none;
+    box-shadow: 0 0 5px rgba(193, 230, 253, 0.5);
 }
 
 /* Footer */
 footer {
-    background-color: #f5f5f5;
-    color: #000;
+    background-color: #338fc8;
+    color: white;
 }
