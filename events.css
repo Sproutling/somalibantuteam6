@@ -29,14 +29,19 @@
 }
 
 body {
-    font-family: "ADLaM Display";
+    font-family: "Afacad", system-ui;
     background-color: #F8FFF4;
 }
 
 /* Logo */
 .logo-img {
-    max-height: 50px;
+    max-height: 80px;
 }
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
 
 /* Banner */
 .banner {
@@ -57,10 +62,6 @@ body {
 
 .banner-text {
     text-align: left;
-    position: absolute;
-    top: 80%;
-    left: 40%;
-    transform: translate(-50%, -50%);
     z-index: 2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -70,6 +71,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     margin: 2%;
+    height: 100%;
 }
 
 #upcomingCarousel .event-card {
@@ -90,8 +92,12 @@ body {
     object-fit: cover;
 }
 
+.section-title, h1 {
+    font-family: "ADLaM Display", system-ui;
+}
+
 /* Footer */
 footer {
-    background-color: #f5f5f5;
-    color: #000;
+    background-color: #338fc8;
+    color: white;
 }
