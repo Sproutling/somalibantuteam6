@@ -1,0 +1,141 @@
+* {
+    font-family: "Afacad", system-ui;
+}
+
+.banner-button {
+    background-color: #156EA6;
+    border-style: none;
+}
+
+.banner-image {
+    background-image: url('./Images/2005 Somali Bantu School Students with Tutors.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    color: white;
+    min-height: 300px;
+}
+
+.banner-text {
+    background-color: #3EB24A;
+}
+
+.btn:hover {
+    background-color: #338fc8;
+    color: white;
+}
+
+body {
+    background-color: #F8FFF4;
+}
+
+.card {
+    background-color: #D2EEC3;
+    border-style: none;
+}
+
+.card-button {
+    background-color: #F8FFF4;
+    border-style: none;
+    color: black;
+}
+
+.form-control {
+    background-color: #EDF8E7;
+    border-color: #D2EEC3;
+    border-width: 2px;
+    color: #D2EEC3;
+}
+
+.form-container {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #EDF8E7;
+    border-radius: 10px;
+}
+
+.form-label {
+    font-family: "Alata", system-ui;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1, .card-title, h5 {
+    font-family: "ADLaM Display", system-ui;
+    text-align: left;
+}
+
+/* Logo */
+.logo-img {
+    max-height: 94px;
+}
+
+.nav-item {
+    font-family: "Alata", system-ui;
+    font-size: 1.2rem;
+}
+
+.progress {
+    background-color: #D2EEC3;
+}
+
+.progress-bar {
+    background-color: #3EB24A;
+}
+
+.progress-button {
+    background-color: #D2EEC3;
+    border-style: none;
+}
+
+.row {
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsor {
+    background-color: #C1E6FD;
+}
+
+.white {
+    background-color: white;
+    border-bottom: solid;
+    border-color: #CCCCCC;
+}
+
+
+/* Style for predefined amount buttons */
+.custom-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #D2EEC3;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+/* Selected button styling */
+.btn-check:checked + .custom-btn {
+    background-color: #D2EEC3;
+    color: black;
+    border-color: #D2EEC3;
+}
+
+/* Custom input styling */
+.custom-amount-input {
+    border: 2px solid #D2EEC3;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.custom-amount-input:focus {
+    border-color: #C1E6FD;
+    outline: none;
+    box-shadow: 0 0 5px rgba(193, 230, 253, 0.5);
+}
