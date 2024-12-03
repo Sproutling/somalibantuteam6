@@ -10,12 +10,14 @@
 .banner-image {
     background-image: url('./Images/Welcoming\ the\ \ Somali\ Bantu\ Community\ of\ Pittsburgh.jpg');
     background-repeat: no-repeat;
+    height:350px;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
     margin-top: 0;
     color: white;
     min-height: 300px;
+    padding:30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
