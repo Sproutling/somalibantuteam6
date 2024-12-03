@@ -8,7 +8,7 @@
 }
 
 .banner-image {
-    background-image: url('./Images/2005 Somali Bantu School Students with Tutors.jpg');
+    background-image: url('./Images/Welcoming\ the\ \ Somali\ Bantu\ Community\ of\ Pittsburgh.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -16,6 +16,7 @@
     margin-top: 0;
     color: white;
     min-height: 300px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .banner-text {
